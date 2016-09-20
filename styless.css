@@ -1,0 +1,51 @@
+body{
+ background-image:url('https://media.giphy.com/media/4jrpzJjbjuWRy/giphy.gif');
+  background-repeat: repeat;
+  background-size: 450px 325px;
+}
+
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  }
+
+div {
+text-align: center
+}
+
+.marquee {
+font-size: 50px;
+animation: marquee 50s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+.marquee.scroll {
+		-webkit-marquee: auto medium infinite scroll normal;
+		overflow-x: -webkit-marquee; }
+.marquee.reverse {
+		-webkit-marquee: reverse medium infinite scroll normal;
+		overflow-x: -webkit-marquee;}
+
+a.ex:hover, a.ex:active {
+font-size: 350%;
+color: red;
+}
+
+#birthday{
+  font-family: Indie Flower;
+text-align: center;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+

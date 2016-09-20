@@ -1,0 +1,66 @@
+ form{
+	 width:600px;
+	 
+	 position:relative;
+ }
+
+ body {
+    background-image: url("http://cdn.wallpapersafari.com/11/93/laU6ON.jpg");
+    background-size: 2000px 1200px;
+    background-repeat: no-repeat;
+}
+ p{
+	color: white;
+	position: fixed;
+    	 top: 50%;
+    	 left: 50%;
+    	 margin-top: -300px;
+    	 margin-left: -800px;
+	font-family: Permanent Marker, sans-serif;
+	 font-size:50px;
+ }
+
+p.ex:hover, p.ex:active
+{font-size: 350%;
+color: red;}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity : 1;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: 0.5;
+}
+
+ input[type="text"]{
+    height: 40px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -750px;
+} 
+
+.button {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    	 top: 50%;
+    	 left: 50%;
+    	 margin-top: -50px;
+    	 margin-left: -700px;
+	 font-size:20px;
+}
+
+.button1:hover {
+    box-shadow: 10px 10px 10px #FFFFFF;
+    background-color: #4CAF50;
+    color: white;
+}
+

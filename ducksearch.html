@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DuckDuckGo</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<img src="http://i1-news.softpedia-static.com/images/news2/DuckDuckGo-Rolls-Out-Settings-Page-Design-454712-2.jpg">
+<script>
+function Query() {
+var query=document.getElementById("name").value;
+if(query.length<1){
+window.alert("Enter a string!!!");
+document.getElementById("name");
+}
+else
+{
+var mod_query= query.trim().split(" ");
+ var final_query=mod_query[0];
+for(var i=1;i<mod_query.length;i++)
+var final_query=final_query+ "+" + mod_query[i];
+var url = "https://duckduckgo.com/?q=" + final_query + "&t=h_&ia=about";
+window.location.href=url;
+}
+}
+</script>
+
+<input  type="text" id="name" name="Name" placeholder="What are you searching for?"><br><br>
+<button type="submit" value="submit" id="btn" onclick="Query()">Search</button>
+</body>
+</html>

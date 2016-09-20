@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Happy Birthday </title>
+<link rel="stylesheet" type="text/css" href="styless.css">
+<link href='https://fonts.googleapis.com/css?family=Permanent+Marker:400' rel='stylesheet' type='text/css'>
+</head>
+<body onload="a()">
+<p id="birthday"></p>
+<script>
+function a(){
+ var uri=decodeURI(location.href);
+ var name=uri.split('=');
+ 
+ var name1=name[1].split('+');
+ 
+ var bdayname=name1.join(" ");
+  document.getElementById("birthday").innerHTML= "Happy Birthday " +bdayname+ "!!!";
+}
+</script>
+<div class="marquee"><a class="ex">Wish you many </a></div>
+
+<div class="marquee reverse"> <a class="ex"> Happy returns of the day </a></div>
+</body>
+
+
+
+</html>
